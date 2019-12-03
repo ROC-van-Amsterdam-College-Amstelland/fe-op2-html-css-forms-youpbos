@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: 0%;
+    height: 100vh;
+}
+
+main {
+    height: 450px;
+    width: 450px;
+    border: 1px black solid;
+    background-color: rgb(70, 70, 70);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+    width: 450px;
+}
+
+.invoer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 140px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
+.knop {
+    height: 25px;
+    width: 350px;
+    background-color: blue;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    font-size: 15px;
+}
+
+#voornaam {
+    height: 25px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+#achternaam {
+    height: 25px;
+    width: 350px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 0%;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+    margin-bottom: 10px;
+}
