@@ -9,34 +9,26 @@ body {
 }
 
 main {
-    height: 450px;
-    width: 450px;
+    height: 550px;
+    width: 500px;
     border: 1px black solid;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(128, 128, 128);
 }
 
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110px;
-    width: 450px;
+    height: 150px;
+    width: 500px;
 }
 
 .invoer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
-    height: 250px;
-}
-
-.link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
-    height: 140px;
+    width: 500px;
+    height: 490px;
 }
 
 .text {
@@ -55,9 +47,23 @@ main {
     font-size: 15px;
 }
 
+.naastElkaar {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.voorwaarden {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
 #voornaam {
     height: 25px;
-    width: 350px;
+    width: 150px;
+    margin-bottom: 20px;
     border: 2px solid black;
 }
 
@@ -83,7 +89,7 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 h3 {
